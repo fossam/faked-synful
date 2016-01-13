@@ -1,0 +1,3 @@
+* publish packer scripts to make the VM with correct configuration automatically
+* provide honeyd configuration so that the box that runs the faked-synful looks like a cisco on portscan
+* add more details and realistic activity from the real implant descriptions how the real thing functions

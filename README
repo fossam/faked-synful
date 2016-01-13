@@ -1,0 +1,4 @@
+
+This script attempts to mimic the synful router implant. It should reply to the implant scanners and appear as if it is the actual implant.
+
+Currently, to make this work one has to drop automatic tcp rst reply packets that the host running the faked-synful.py would send on a scan. This can be done easily in the iptables OUTPUT chain. Another alternative is to listen on port 80 and just drop rst replies for that.
